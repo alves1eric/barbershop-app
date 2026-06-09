@@ -1,11 +1,58 @@
-# Sample Snack app
+# 💈 Barbershop - App de Agendamento
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Aplicativo mobile desenvolvido em **React Native** para agendamento de serviços em barbearia. Projeto acadêmico apresentado à disciplina de Desenvolvimento Mobile.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 📱 Funcionalidades
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- 🔐 **Cadastro e Login** de usuários com validação
+- ✂️ **Seleção de serviços** com checkbox (múltipla escolha)
+  - Degradê - R$ 35,00 (40min)
+  - Social - R$ 30,00 (30min)
+  - Penteado - R$ 55,00 (30min)
+  - Barba - R$ 20,00
+- 📅 **Agendamento** com data e horário (calendário nativo)
+- 💰 **Cálculo automático** do valor total dos serviços
+- 📋 **Histórico** de agendamentos salvos
+- 💾 **Persistência de dados** com AsyncStorage
+- 📱 Funciona em **Android, iOS e Web**
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|------------|-----------|
+| React Native | Framework principal |
+| Expo | Plataforma de desenvolvimento |
+| AsyncStorage | Armazenamento local de dados |
+| DateTimePicker | Calendário e relógio nativos |
+| Ionicons | Biblioteca de ícones |
+| React Native Paper | Componentes visuais |
+| JavaScript (ES6+) | Linguagem de programação |
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js instalado
+- Expo CLI
+- Expo Go (no celular)
+
+### Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/teceril3/barbershop-app.git
+
+# Entre na pasta
+cd barbershop-app
+
+# Instale as dependências
+npm install
+
+# Inicie o projeto
+npx expo start
