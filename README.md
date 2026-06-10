@@ -46,7 +46,7 @@ Aplicativo mobile desenvolvido em **React Native** para agendamento de serviços
 
 ```bash
 # Clone o repositório
-git clone https://github.com/teceril3/barbershop-app.git
+git clone https://github.com/alves1eric/barbershop-app.git
 
 # Entre na pasta
 cd barbershop-app
